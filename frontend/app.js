@@ -24,8 +24,7 @@ noteForm.addEventListener('submit', async (event) => {
 
   
   const confirmationPage = 
-    <h1>Note Submitted</h1>
-    <p>Thank you for submitting your meeting notes. We'll take care of the rest!</p>
+    "<h1>Note Submitted</h1> <p>Thank you for submitting your meeting notes. We'll take care of the rest!</p> "
   ;
   document.body.innerHTML = confirmationPage;
 });
