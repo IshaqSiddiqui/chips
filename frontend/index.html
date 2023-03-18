@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Note Taking App</h1>
+    <form id="note-form">
+      <label for="meeting-date">Meeting Date:</label>
+      <input type="date" id="meeting-date" name="meeting-date" required>
+
+      <label for="meeting-time">Meeting Time:</label>
+      <input type="time" id="meeting-time" name="meeting-time" required>
+
+      <label for="attendees">Attendees:</label>
+      <textarea id="attendees" name="attendees" required></textarea>
+
+      <label for="meeting-notes">Meeting Notes:</label>
+      <textarea id="meeting-notes" name="meeting-notes" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>

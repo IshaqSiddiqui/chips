@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+form {
+  margin: 2rem auto;
+  max-width: 600px;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px #ddd;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
